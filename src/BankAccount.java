@@ -1,9 +1,10 @@
+
 public class BankAccount {
 
     private String firstName;
     private String lastName;
     private int accountID;
-    private double balance;
+    protected double balance;
 
     public BankAccount() {
         balance = 0.0;
